@@ -1,14 +1,11 @@
-//
-//  main.cpp
-//  tictac
-//
-//  Created by John Nabil Takla on 13/11/2020.
-//
-
+#include <SFML/Graphics.hpp>
 #include <iostream>
+#include "Game.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+#define SCREEN_WIDTH 1024
+#define SCREEN_HEIGHT 1024
+
+int main(){
+    Sonar::Game(800, 600, "Tic Tac");
+    return EXIT_SUCCESS;
 }

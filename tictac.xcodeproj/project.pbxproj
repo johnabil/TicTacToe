@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		52D33E2D255F130B00B4589F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D33E2C255F130B00B4589F /* main.cpp */; };
+		52D33E38255F147100B4589F /* libsfml-system.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D33E35255F147100B4589F /* libsfml-system.2.5.1.dylib */; };
+		52D33E39255F147100B4589F /* libsfml-graphics.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D33E36255F147100B4589F /* libsfml-graphics.2.5.1.dylib */; };
+		52D33E3A255F147100B4589F /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D33E37255F147100B4589F /* libsfml-window.2.5.1.dylib */; };
+		52D33E40255F1C9500B4589F /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D33E3E255F1C9500B4589F /* StateMachine.cpp */; };
+		52D33E46255F420600B4589F /* AssetManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D33E44255F420600B4589F /* AssetManager.cpp */; };
+		52D33E4A255F49F700B4589F /* InputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D33E48255F49F700B4589F /* InputManager.cpp */; };
+		52D33E4E255F4E7E00B4589F /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52D33E4C255F4E7E00B4589F /* Game.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,18 @@
 /* Begin PBXFileReference section */
 		52D33E29255F130B00B4589F /* tictac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tictac; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D33E2C255F130B00B4589F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		52D33E35255F147100B4589F /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-system.2.5.1.dylib"; path = "../../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
+		52D33E36255F147100B4589F /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-graphics.2.5.1.dylib"; path = "../../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
+		52D33E37255F147100B4589F /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-window.2.5.1.dylib"; path = "../../../../../../usr/local/Cellar/sfml/2.5.1/lib/libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
+		52D33E3E255F1C9500B4589F /* StateMachine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StateMachine.cpp; sourceTree = "<group>"; };
+		52D33E3F255F1C9500B4589F /* StateMachine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StateMachine.hpp; sourceTree = "<group>"; };
+		52D33E42255F1CC400B4589F /* State.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = State.hpp; sourceTree = "<group>"; };
+		52D33E44255F420600B4589F /* AssetManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AssetManager.cpp; sourceTree = "<group>"; };
+		52D33E45255F420600B4589F /* AssetManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AssetManager.hpp; sourceTree = "<group>"; };
+		52D33E48255F49F700B4589F /* InputManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputManager.cpp; sourceTree = "<group>"; };
+		52D33E49255F49F700B4589F /* InputManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputManager.hpp; sourceTree = "<group>"; };
+		52D33E4C255F4E7E00B4589F /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		52D33E4D255F4E7E00B4589F /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D33E38255F147100B4589F /* libsfml-system.2.5.1.dylib in Frameworks */,
+				52D33E39255F147100B4589F /* libsfml-graphics.2.5.1.dylib in Frameworks */,
+				52D33E3A255F147100B4589F /* libsfml-window.2.5.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +65,7 @@
 			children = (
 				52D33E2B255F130B00B4589F /* tictac */,
 				52D33E2A255F130B00B4589F /* Products */,
+				52D33E34255F147100B4589F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +81,27 @@
 			isa = PBXGroup;
 			children = (
 				52D33E2C255F130B00B4589F /* main.cpp */,
+				52D33E3E255F1C9500B4589F /* StateMachine.cpp */,
+				52D33E3F255F1C9500B4589F /* StateMachine.hpp */,
+				52D33E42255F1CC400B4589F /* State.hpp */,
+				52D33E44255F420600B4589F /* AssetManager.cpp */,
+				52D33E45255F420600B4589F /* AssetManager.hpp */,
+				52D33E48255F49F700B4589F /* InputManager.cpp */,
+				52D33E49255F49F700B4589F /* InputManager.hpp */,
+				52D33E4C255F4E7E00B4589F /* Game.cpp */,
+				52D33E4D255F4E7E00B4589F /* Game.hpp */,
 			);
 			path = tictac;
+			sourceTree = "<group>";
+		};
+		52D33E34255F147100B4589F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52D33E36255F147100B4589F /* libsfml-graphics.2.5.1.dylib */,
+				52D33E35255F147100B4589F /* libsfml-system.2.5.1.dylib */,
+				52D33E37255F147100B4589F /* libsfml-window.2.5.1.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D33E4A255F49F700B4589F /* InputManager.cpp in Sources */,
+				52D33E46255F420600B4589F /* AssetManager.cpp in Sources */,
 				52D33E2D255F130B00B4589F /* main.cpp in Sources */,
+				52D33E40255F1C9500B4589F /* StateMachine.cpp in Sources */,
+				52D33E4E255F4E7E00B4589F /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +286,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sfml/2.5.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +299,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sfml/2.5.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
